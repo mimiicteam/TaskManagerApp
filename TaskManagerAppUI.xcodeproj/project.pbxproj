@@ -16,6 +16,7 @@
 		434EDA1C284D49BA00C19310 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EDA1B284D49BA00C19310 /* Home.swift */; };
 		434EDA1E284D4D2400C19310 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EDA1D284D4D2400C19310 /* TaskViewModel.swift */; };
 		43B2288B284D8B730006CFD7 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B2288A284D8B730006CFD7 /* AddNewTask.swift */; };
+		7CE11C79286442C600778F32 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE11C78286442C500778F32 /* DynamicFilteredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		434EDA1B284D49BA00C19310 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		434EDA1D284D4D2400C19310 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		43B2288A284D8B730006CFD7 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		7CE11C78286442C500778F32 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		434EDA18284D497E00C19310 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7CE11C78286442C500778F32 /* DynamicFilteredView.swift */,
 				434EDA1B284D49BA00C19310 /* Home.swift */,
 				43B2288A284D8B730006CFD7 /* AddNewTask.swift */,
 			);
@@ -179,6 +182,7 @@
 				434EDA0C284D485200C19310 /* Persistence.swift in Sources */,
 				434EDA1E284D4D2400C19310 /* TaskViewModel.swift in Sources */,
 				434EDA05284D485000C19310 /* ContentView.swift in Sources */,
+				7CE11C79286442C600778F32 /* DynamicFilteredView.swift in Sources */,
 				434EDA1C284D49BA00C19310 /* Home.swift in Sources */,
 				43B2288B284D8B730006CFD7 /* AddNewTask.swift in Sources */,
 				434EDA17284D48B900C19310 /* TaskManagerAppUI.xcdatamodeld in Sources */,
